@@ -15,6 +15,12 @@ namespace ValoresEspeciais
             Console.WriteLine(y);
 
             
+
+            float smallValue = 1e-38f;
+            float result = smallValue / 1e20f;
+            Console.WriteLine(result); 
+
+            
             
         }
     }
