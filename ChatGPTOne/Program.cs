@@ -28,7 +28,7 @@ namespace ChatGPTOne
                     Console.WriteLine("During the night, it can drop to around -173 degrees Celsius!");
                     continue;
                 }
-                else if (question == "Is it true that planet Mercury as ice?")
+                else if (question == "Planet Mercury as ice?")
                 {
                     Console.WriteLine("Yes, there is evidence of ice on Mercury, and this was confirmed by data from the MESSENGER mission in 2012.");
                     continue;
@@ -39,11 +39,9 @@ namespace ChatGPTOne
                     break;
                 }
                 else
-
-                
-
-
-
+                {
+                    Console.WriteLine("I don't understand...");
+                }
 
 
             }
