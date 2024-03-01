@@ -12,7 +12,7 @@ namespace MagicGun
 
             while (turn<n + 1)
             {
-                if (turn % 3 == 0)d
+                if (turn % 3 == 0)
                 {
                     Console.Writeline()
                 }
